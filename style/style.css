@@ -273,3 +273,7 @@ header ul {
 
 
 
+
+.dead {
+  filter: grayscale(100%);
+}

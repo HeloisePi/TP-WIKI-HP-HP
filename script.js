@@ -55,12 +55,11 @@ function createCardChara(chara) {
   let divChara = document.createElement("div");
   divChara.innerHTML = `
     <div class="${chara.house}">
-        <a href="/details.html">
+        <a href="details.html?id=${chara.id}">
             <img src="${chara.image}" alt="${chara.name}">
             <p>${chara.name}</p>
           </a>
-    </div>`;
-    
+    </div>`; 
   characters.appendChild(divChara);
 }
 
