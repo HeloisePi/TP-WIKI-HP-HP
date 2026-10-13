@@ -228,23 +228,23 @@ header ul {
 
 /*# sourceMappingURL=style.css.map */
 
-.gryffindor:hover img{
+.Gryffindor:hover img{
     border: 8px solid var(--red, #b71713);
     color:var(--red, #b71713) ;
     transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.hufflepuff:hover img{
+.Hufflepuff:hover img{
     border: 8px solid var(  --yellow, #e1b50c);
         color:var( --yellow, #e1b50c) ;
         transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.slytherin:hover img{
+.Slytherin:hover img{
 
                 border: 8px solid var(   --green, #124b10);
     color:var(  --green, #124b10) ;
     transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.ravenclaw:hover img{
+.Ravenclaw:hover img{
       border: 8px solid var( --blue, #078cb1);
             color:var( --blue, #078cb1) ;
             transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -252,20 +252,20 @@ header ul {
 }
 
 
-.gryffindor:hover  p{
+.Gryffindor:hover  p{
     color:var(--red, #b71713) ;
     transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.hufflepuff:hover p{
+.Hufflepuff:hover p{
         color:var( --yellow, #e1b50c) ;
         transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.slytherin:hover p{
+.Slytherin:hover p{
      color:var(  --green, #124b10) ;
      transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);   
 }
 
-.ravenclaw:hover p{
+.Ravenclaw:hover p{
      color:var( --blue, #078cb1) ;
      transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
