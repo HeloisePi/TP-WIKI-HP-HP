@@ -10,11 +10,11 @@
 
 @font-face {
   font-family: "Rubik";
-  src: url("./../font/Rubik-Regular.ttf");
+  src: url("./../asset/font/Rubik-Regular.ttf");
 }
 @font-face {
   font-family: "Rubik";
-  src: url("./../font/Rubik-Bold.ttf");
+  src: url("./../asset/font/Rubik-Bold.ttf");
   font-weight: bold;
 }
 * {
@@ -23,7 +23,7 @@
 }
 
 body {
-  background: url("./../images/bgHP.webp") repeat;
+  background: url("./../asset/bgHP.webp") repeat;
   font-family: "Rubik";
 }
 
@@ -126,9 +126,11 @@ footer p {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
   padding: 30px;
 }
 .characters > div {
+
   padding: 30px;
 }
 .characters img {
@@ -143,6 +145,8 @@ footer p {
 .characters p {
   text-align: center;
   color: var(--Gold, #b99049);
+  font-weight: bold;
+  margin-top: 14px;
 }
 
 /* PAGE PERSO */
