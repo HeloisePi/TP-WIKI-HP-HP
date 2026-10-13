@@ -116,6 +116,10 @@ footer p {
 }
 .houses > div:hover {
   background: #fff6e6;
+  border-radius: 50%;
+  width: 9rem;
+  padding: 0.5rem;
+  transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .houses img {
   width: 121px;
@@ -168,6 +172,13 @@ footer p {
   display: flex;
   justify-content: space-around;
 }
+.page_perso .perso__right  p {
+  width: 10rem;
+}
+
+.bold{
+  font-weight: bold;
+}
 .page_perso .perso__right p.attr {
   font-weight: bold;
 }
@@ -216,3 +227,49 @@ header ul {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.gryffindor:hover img{
+    border: 8px solid var(--red, #b71713);
+    color:var(--red, #b71713) ;
+    transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hufflepuff:hover img{
+    border: 8px solid var(  --yellow, #e1b50c);
+        color:var( --yellow, #e1b50c) ;
+        transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.slytherin:hover img{
+
+                border: 8px solid var(   --green, #124b10);
+    color:var(  --green, #124b10) ;
+    transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ravenclaw:hover img{
+      border: 8px solid var( --blue, #078cb1);
+            color:var( --blue, #078cb1) ;
+            transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+
+.gryffindor:hover  p{
+    color:var(--red, #b71713) ;
+    transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hufflepuff:hover p{
+        color:var( --yellow, #e1b50c) ;
+        transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.slytherin:hover p{
+     color:var(  --green, #124b10) ;
+     transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);   
+}
+
+.ravenclaw:hover p{
+     color:var( --blue, #078cb1) ;
+     transition: 500ms all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+
+
