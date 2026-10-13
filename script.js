@@ -45,7 +45,7 @@ function showChara(allChara) {
      div.remove());
    
   allChara.forEach((chara) => {
-    if (chara.image == "") return;
+    // if (chara.image == "") return;
   createCardChara(chara);
 });
 }
@@ -56,7 +56,7 @@ function createCardChara(chara) {
   divChara.innerHTML = `
     <div class="${chara.house}">
         <a href="details.html?id=${chara.id}">
-            <img src="${chara.image}" alt="${chara.name}">
+            <img src="${chara.image ? chara.image : "asset/chara/troll.jpg"}" alt="${chara.name}">
             <p>${chara.name}</p>
           </a>
     </div>`; 
